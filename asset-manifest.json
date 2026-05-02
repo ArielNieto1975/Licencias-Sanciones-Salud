@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/licencias-sanciones-salud/static/css/main.541b094e.css",
-    "main.js": "/licencias-sanciones-salud/static/js/main.ea25e044.js",
-    "static/js/453.9a67befb.chunk.js": "/licencias-sanciones-salud/static/js/453.9a67befb.chunk.js",
-    "index.html": "/licencias-sanciones-salud/index.html",
-    "main.541b094e.css.map": "/licencias-sanciones-salud/static/css/main.541b094e.css.map",
-    "main.ea25e044.js.map": "/licencias-sanciones-salud/static/js/main.ea25e044.js.map",
-    "453.9a67befb.chunk.js.map": "/licencias-sanciones-salud/static/js/453.9a67befb.chunk.js.map"
+    "main.css": "/static/css/main.541b094e.css",
+    "main.js": "/static/js/main.e56365d3.js",
+    "static/js/453.9a67befb.chunk.js": "/static/js/453.9a67befb.chunk.js",
+    "index.html": "/index.html",
+    "main.541b094e.css.map": "/static/css/main.541b094e.css.map",
+    "main.e56365d3.js.map": "/static/js/main.e56365d3.js.map",
+    "453.9a67befb.chunk.js.map": "/static/js/453.9a67befb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.541b094e.css",
-    "static/js/main.ea25e044.js"
+    "static/js/main.e56365d3.js"
   ]
 }
