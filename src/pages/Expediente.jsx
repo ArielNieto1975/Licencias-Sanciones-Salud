@@ -85,7 +85,7 @@ const Expediente = () => (
       <p> No exceda la cantidad de tres (3) agentes por repartición.</p>
 
       <br />
-      <p className="centrado">
+      {/* <p className="centrado">
         Fuente{" "}
         <a
           href="http://web2.cba.gov.ar/web/leyes.nsf/85a69a561f9ea43d03257234006a8594/33af73604c70a1f0032580ca00593150/$FILE/1295-16%20ANEXO%20UNICO.pdf"
@@ -94,7 +94,7 @@ const Expediente = () => (
         >
           Decreto 1295/16 (Reglamentario de Ley 10318)
         </a>
-      </p>
+      </p> */}
       <button onClick={() => window.history.back()}>Volver</button>
     </section>
   </div>
