@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/licencias-sanciones-salud/static/css/main.541b094e.css",
-    "main.js": "/licencias-sanciones-salud/static/js/main.d42c5334.js",
+    "main.js": "/licencias-sanciones-salud/static/js/main.ea25e044.js",
     "static/js/453.9a67befb.chunk.js": "/licencias-sanciones-salud/static/js/453.9a67befb.chunk.js",
     "index.html": "/licencias-sanciones-salud/index.html",
     "main.541b094e.css.map": "/licencias-sanciones-salud/static/css/main.541b094e.css.map",
-    "main.d42c5334.js.map": "/licencias-sanciones-salud/static/js/main.d42c5334.js.map",
+    "main.ea25e044.js.map": "/licencias-sanciones-salud/static/js/main.ea25e044.js.map",
     "453.9a67befb.chunk.js.map": "/licencias-sanciones-salud/static/js/453.9a67befb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.541b094e.css",
-    "static/js/main.d42c5334.js"
+    "static/js/main.ea25e044.js"
   ]
 }
