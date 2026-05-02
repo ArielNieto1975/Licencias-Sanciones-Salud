@@ -1,38 +1,309 @@
 .App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  min-height: 100vh;
+  background-color: #ebe5fa;
+}
+
+.main-header {
+  background-color: #b598f8;
+  padding: 2rem;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #e9ecef;
+  text-shadow: 5px 1px 10px black;
+}
+.main-header h1 {
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.access-card {
+  width: 300px;
+  padding: 40px 20px;
+  border: 2px solid #333;
+  border-radius: 15px;
+  cursor: pointer;
+  background: white;
+  transition: transform 0.2s;
+} */
+
+.grid-container {
+  display: grid;
+  /* 'auto-fill' crea las columnas que entren sin amontonarlas */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
+.access-card {
+  /* No pongas width fijo aquí, el grid lo maneja */
+  /* height: 100%;  */
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #333;
+  border-radius: 15px;
+  padding: 40px 20px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+.access-card h2 {
+  text-align: center;
+  background-color: #6f34f8;
+}
+.access-card:hover {
+  transform: scale(1.05);
+  color: #6f34f8;
+}
+
+.page-view {
+  padding: 30px 70px;
+  width: 50%;
+  background: white;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+  /* gap: 10px; Espacio entre ellas */
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+}
+.contenedor div {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.page-view section {
+  width: 85%;
+  margin: auto;
+}
+li {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+li:hover {
+  font-weight: bold;
+}
+
+button {
+  background-color: #a389d4; /* Un lila que combina con tu encabezado */
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px; /* Bordes redondeados modernos */
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Animación suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+  background-color: #8e74c2; /* Color un poco más oscuro */
+  transform: translateY(-2px); /* Pequeño salto hacia arriba */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Efecto al hacer clic */
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.TransporteGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Crea dos columnas iguales */
+  gap: 0; /* Espacio entre columnas y filas */
+}
+.TransporteGrid div {
+  background-color: #dbcafa;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid grey;
+}
+button {
+  display: block;
+  margin: auto;
+}
+.centrado {
+  text-align: center;
+}
+h2,
+h3,
+h4 {
+  background: linear-gradient(to right, #8d8887, #fdfcfb);
+  padding: 10px;
+}
+.access-card h2 {
+  text-align: center;
+  background: linear-gradient(to right, #ffffff, #fdfdfd);
+}
+
+.alerta-licencias {
+  /* Un fondo lavanda muy claro como el de tu imagen */
+  background-color: #f3ebff;
+  /* Un borde violeta que combine con el encabezado "LICENCIAS SALUD" */
+  border-left: 6px solid #8e7cc3;
+  padding: 10px 10px;
+  /* margin: 25px 0; */
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a4a4a;
+  /* line-height: 1.6; */
+  /* Sombra suave para que resalte sobre el fondo claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  text-shadow: none;
+  text-align: center;
+  /* max-width: fit-content; */
+  margin: auto;
+}
+
+.alerta-licencias strong {
+  /* Color violeta oscuro para resaltar */
+  color: #674ea7;
+  font-weight: 700;
+  margin: auto;
+}
+
+/* estilos sanciones */
+
+.main-header {
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-height: 120px;
+}
+
+.main-header h1 {
+  margin: 0 0 15px 0;
+  font-size: 2.2em;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.alerta-licencias {
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #ff6b6b;
+  margin: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alerta-licencias p {
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+  transition: all 0.3s ease;
+  min-width: 160px;
+}
+
+.toggle-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+  background: linear-gradient(45deg, #ee5a52, #ff6b6b);
+}
+
+.toggle-button:active {
+  transform: translateY(0);
+}
+
+.sanciones-container {
+  padding: 40px 20px;
   min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.sanciones-title {
+  color: #2c3e50;
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.sanciones-text {
+  color: #34495e;
+  font-size: 1.2em;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* estilos sanciones */
+
+@media (max-width: 1024px) {
+  .page-view {
+    padding: 30px 40px;
+    width: 70%;
   }
 }
+
+@media (max-width: 768px) {
+  .page-view {
+    padding: 20px 20px;
+    width: 90%;
+  }
+  .contenedor div p {
+    text-align: center;
+  }
+  .page-view section {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+

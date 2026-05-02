@@ -1,0 +1,36 @@
+import React from "react";
+
+const DonacionSangre = () => (
+  <div className="page-view">
+    <section>
+      <h2>Justificación de inasistencia por por donación de sangre</h2>
+      <p>Hasta cuatro (4) días por año calendario</p>
+      <p>Entre una extracción y otra debe mediar al menos 60 días</p>
+      <p>Se acredita mediante certificado de la autoridad sanitaria.</p>
+      <br />
+      <p className="centrado">
+        Fuente Art.52{" "}
+        <a
+          href="http://web2.cba.gov.ar/web/leyes.nsf/0/B4E0D6549A13821503257BE1006695BB?OpenDocument&Highlight=0,7233"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ley 7233
+        </a>{" "}
+        y Art. 94{" "}
+        <a
+          href="http://web2.cba.gov.ar/web/leyes.nsf/0/0DCA596E4811BAE2032589C900521F5C?OpenDocument&Highlight=0,7625"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ley 7625
+        </a>{" "}
+        y sus Decretos reglamentarios
+      </p>
+    </section>
+
+    <button onClick={() => window.history.back()}>Volver</button>
+  </div>
+);
+
+export default DonacionSangre;
