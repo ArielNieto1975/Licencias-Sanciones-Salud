@@ -5,7 +5,7 @@ const JustidicacionInasitencia = () => (
     <section>
       <h2>Justificación de Inasistencia</h2>
       <p>
-        Maximo 10 días hábiles por año calendario, sin exceder de 2 dìas por
+        Máximo 10 días hábiles por año calendario, sin exceder de 2 días por
         mes.
       </p>
       <p>Deben ser solicitadas con una antelación de tres (3) días hábiles.</p>

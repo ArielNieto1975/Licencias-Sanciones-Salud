@@ -39,12 +39,12 @@ const Expediente = () => (
       </p>
       <h3>Licencia por Evento Deportivo</h3>
       <p>
-        Se extiendie desde la fecha del evento o de la iniciación de la
+        Se extiende desde la fecha del evento o de la iniciación de la
         selección, hasta el día siguiente a su finalización.
       </p>
       <p>
-        Con Goce de haberes: 30 o 60 días segun corresponda, cuando el agente
-        tenga una antigÜedad mayor a 6 meses
+        Con Goce de haberes: 30 o 60 días según corresponda, cuando el agente
+        tenga una antigüedad mayor a 6 meses
       </p>
       <p>
         Sin Goce de haberes: Cuando no cumple con la antigüedad mínima de 6
@@ -77,7 +77,7 @@ const Expediente = () => (
       <h3>Licencia por Razones Gremiales</h3>
       <p>Licencia no remunerada</p>
       <p>
-        Todo/a agente, planta permanente (minimo 6 meses de antigüedad), que
+        Todo/a agente, planta permanente (mínimo 6 meses de antigüedad), que
         fuera designado/a para funciones sindicales, siempre y cuando lo
         solicite la organización sindical competente con personería gremial, y
         por el término que dure su período.

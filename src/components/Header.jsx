@@ -63,7 +63,7 @@ const Header = () => {
             <p>
               <strong>Aviso Importante:</strong> El presente instructivo es solo
               a los efectos de guiar en la temática de autorización de licencia
-              y aplicaciòn de sanciones, y bajo ningún punto pretende reemplazar
+              y aplicación de sanciones, y bajo ningún punto pretende reemplazar
               las leyes vigentes.
             </p>
           </div>

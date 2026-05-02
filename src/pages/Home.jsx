@@ -28,7 +28,7 @@ const Home = () => {
     { title: "Paro de Transporte", path: "/ParoTransporte" },
     { title: "Franco Compensatorio", path: "/Franco" },
     {
-      title: "Licencias por Accidente o Enfermedad Profecional",
+      title: "Licencias por Accidente o Enfermedad Profesional",
       path: "/Accidente",
     },
     {

@@ -3,7 +3,7 @@ import React from "react";
 const RazonesSalud = () => (
   <div className="page-view">
     <section>
-      <h2>Licencias por Razones de Saludl</h2>
+      <h2>Licencias por Razones de Salud</h2>
       <p>
         Son incompatibles con el desempeño de cualquier función pública o
         privada, salvo actividades que sean específicamente autorizadas por la
@@ -27,7 +27,7 @@ const RazonesSalud = () => (
       <p>
         Cuando la Dirección General de Personal estimase que el agente padece
         una afección que lo haría incluir en las de largo tratamiento, deberá
-        someterlo a una Junta Médica antes de agotar el término del parrafo
+        someterlo a una Junta Médica antes de agotar el término del párrafo
         anterior.
       </p>
       <h4>Afecciones o enfermedades de largo tratamiento:</h4>
