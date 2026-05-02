@@ -3,6 +3,7 @@ import './App.css';
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from './ScrollToTop.js';
 import Header from "./components/Header.jsx";
 import Home from "./pages/Home";
 
@@ -36,6 +37,7 @@ import Sanciones from "./pages/Sanciones.jsx";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app-container">
         <Header />
         <main className="content">
