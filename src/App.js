@@ -44,7 +44,7 @@ function App() {
           <Routes>
             {/* aqui comienza sanciones */}
             <Route path="/sanciones" element={<Sanciones />} />
-            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/" element={<Home />} />
             <Route
               path="/IncumplimientoHorario"
               element={<IncumplimientoHorario />}
