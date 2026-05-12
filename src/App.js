@@ -6,6 +6,8 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from './ScrollToTop.js';
 import Header from "./components/Header.jsx";
 import Home from "./pages/Home";
+import Footer from "./components/Footer.jsx";
+
 
 import Lar from "./pages/Lar";
 import JustidicacionInasitencia from "./pages/JustificacionInasistencia.jsx";
@@ -80,6 +82,7 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );

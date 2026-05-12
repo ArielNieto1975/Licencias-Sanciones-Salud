@@ -215,6 +215,29 @@ h4 {
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+.main-header-f img{
+  height : 50px;
+  width : 50px;
+}
+.main-footer{
+  width : 100%;
+  display: flex;
+  flex-diretion: row;
+  justify-content: center;
+  align-items:center;
+}
+
+.main-header-f {
+  background-color: #6f34f8;
+  /* padding: 2rem; */
+  border-bottom: 2px solid #ddd;
+  /* margin-bottom: 2rem; */
+  font-size: 1.5rem;
+  color: #e9ecef;
+  text-shadow: 5px 1px 10px black;
+}
+
+
 
 .alerta-licencias {
   background: rgba(255, 255, 255, 0.95);
